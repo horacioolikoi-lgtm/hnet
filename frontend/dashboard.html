@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>HNET Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h2>Dashboard HNET</h2>
+<div id="wallet"></div>
+<div id="packs"></div>
+<div id="transactions"></div>
+<h3>Retrait</h3>
+<form id="withdrawForm">
+  <input type="number" id="amount" placeholder="Montant" required><br>
+  <input type="text" id="phone" placeholder="Numéro MoMo" required><br>
+  <select id="provider">
+    <option value="Moov">Moov</option>
+    <option value="MTN">MTN</option>
+  </select><br>
+  <button type="submit">Retirer</button>
+</form>
+<script src="js/app.js"></script>
+</body>
+</html>
